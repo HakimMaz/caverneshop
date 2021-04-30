@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import './App.css';
 import { Provider } from 'react-redux';
 import configureStore from './store/configureStore';
-import { render } from '@testing-library/react';
+import Header from './component/Header/Header';
 
 class App extends Component {
   render() {
@@ -10,10 +10,7 @@ class App extends Component {
 
     return (
       <Provider store={store}>
-      <div className="App">
-        <p> hello everyone</p>
-        
-      </div>
+       <Header/>
   
       </Provider>
     );

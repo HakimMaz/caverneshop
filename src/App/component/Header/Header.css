@@ -1,0 +1,23 @@
+.container-header{
+  display: flex;
+  height:50px;
+  background-color: brown;
+  padding: 20px;
+  align-items: center;
+  padding-left: 70px;
+  padding-right:70px;
+  justify-content: space-between;
+}
+
+.header-right{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+.header-left{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+} 
+
+
