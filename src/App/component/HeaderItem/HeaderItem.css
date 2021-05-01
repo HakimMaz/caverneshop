@@ -1,7 +1,14 @@
 .header-item{
-    font-weight: 400;
-    font-size: 14;
-    color:'#454E6D';
+    width:auto;
+    
     margin-right: 30px;
     margin-right:30px;
+    
+}
+.header-item > p{
+ font-weight: 400;
+ font-size: 12;
+ display: inline-block;
+ white-space: nowrap;
+ color:#454E6D;
 }
