@@ -1,8 +1,9 @@
 import React from 'react';
-
-function HeaderItem(props) {
+import './HeaderItem.css'
+function HeaderItem({title}) {
     return (
-        <div>
+        <div className='header-item'>
+            <p> {title}</p>
             
         </div>
     );

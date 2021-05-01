@@ -4,6 +4,7 @@ import HeaderLogo from '../HeaderLogo/HeaderLogo';
 import InputSearch from '../InputSearch/InputSearch';
 import { RiShoppingCartLine } from 'react-icons/ri';
 import { IconContext } from "react-icons";
+import HeaderItem from '../HeaderItem/HeaderItem';
 function Header(props) {
     return (
         <div className='container-header' >
@@ -12,10 +13,16 @@ function Header(props) {
                     <InputSearch />
                 </div>
                 <div className='header-right'>
-                    <p>FAQ</p>
-                    <p>Track order</p>
+                    <HeaderItem title='FAQ'/>
+                    <HeaderItem title='Track order'/>
+                    <IconContext.Provider value={{  color:'#fff',size:70}}> 
+
                     <RiShoppingCartLine />
-                    <button />
+
+                    </IconContext.Provider>
+                    <button className='header-button'>
+                        <p>Sign in</p>
+                    </button>
                 </div>
         </div>
     );
