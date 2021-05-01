@@ -1,8 +1,11 @@
 import React from 'react';
-
+import MainMenu from '../../component/MainMenu/MainMenu'
 function main(props) {
     return (
-        <div>
+        <div className='main'>
+            <MainMenu/>
+            {/* <SlidingBook/>
+            <BestSellingBook/> */}
             
         </div>
     );

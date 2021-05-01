@@ -23,16 +23,20 @@
 } 
 
 .header-button{
-  height:50px;
+  height:40px;
   width:50%;
   border:none;
   border-radius:50px;
   background-color: #FF1616;
-    margin-left:30px
+  margin-left:30px;
+  
+ 
 }
 .header-button>p{
   font-family: 'Roboto',sans-serif;
   color: #fff;
-  font-size:16px;
+  font-size:15px;
   font-weight: 600;
+  margin-top: auto;
+  margin-bottom: auto;
 }
