@@ -1,6 +1,8 @@
 import React from 'react';
 import './Book.css';
-import logo from '../../../assets/learn-react.png'
+import logo from '../../../assets/learn-react.png';
+import { IconContext } from "react-icons";
+import {AiFillStar} from 'react-icons/ai'
 function Book({title,author,price,rating,review}) {
     return (
         <div className='book-card'>
@@ -13,7 +15,10 @@ function Book({title,author,price,rating,review}) {
                         <div className='book-card-info-details-left-rating'>{Array(rating)
                             .fill()
                             .map((_, i) => (
-                                <p key={i}>⭐</p>
+                               
+                                <IconContext.Provider value={{  color:'#FF5700',size:20}}> 
+                                    <AiFillStar  key={i}/>
+                                </IconContext.Provider>
                             ))}</div>
                         <p className='book-card-info-details-left-review'>(<span style={{color:'#FF7B2E',fontSize:12}}>{review}</span> Review)</p>
                     </div>

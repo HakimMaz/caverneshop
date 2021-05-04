@@ -17,6 +17,7 @@ function Main(props) {
                     <Book title='Lost in paradise' author='El-Motanaby' price='112$' rating={3} review={45} />
                     <Book title='25 hours of sickness' author='Meriem BenDjamal' price='16.2$' rating={3} review={3} />
                     <Book title='Learn React' author='O.Reilly' price='16.2$' rating={4} review={17} />
+                    <Book title='Learn Angular' author='O.Reilly' price='23.2$' rating={3} review={170} />
                 </div>
             </div>
            
