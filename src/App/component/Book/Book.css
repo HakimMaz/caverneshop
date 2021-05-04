@@ -1,0 +1,46 @@
+.book-card{
+    background-color:#fff;
+    width:220px;
+}
+.book-card-img{
+    height:250px;
+    width:220px;
+}
+.book-card-info-title{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: ui-monospace;
+    margin-bottom: 6px;
+}
+.book-card-info-author{
+    margin-top:-2px;
+    font-size:14px;
+    color:#9498A7;
+}
+.book-card-info-details{
+    display:flex;
+    justify-content: space-between;
+    margin-top:-15px;
+}
+.book-card-info-details-left{
+
+}
+.book-card-info-details-left-rating{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.book-card-info-details-left-review{
+    font-size:12px;
+    margin-top:-10px;
+    color:#9498A7
+
+}
+.book-card-info-details-price{
+    text-align: center;
+    font-size:22px;
+    font-weight: 700;
+    color:#FF1616;
+    margin-right: 15px;
+    margin-top:30px;
+}
