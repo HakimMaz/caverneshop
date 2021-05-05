@@ -56,4 +56,10 @@
     font-family: ui-monospace;
     margin-bottom: 10px;
 }
-
+.main-banner-details-header-title-view-more{
+    transition:1s;
+}
+.main-banner-details-header-title-view-more:hover{
+    color:red;
+    letter-spacing: 5px;
+}

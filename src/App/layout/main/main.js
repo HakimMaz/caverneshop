@@ -31,7 +31,7 @@ function Main(props) {
                <div className='main-banner-details'> 
                    <div className='main-banner-details-header'>
                    <p className='main-banner-details-header-title'> Featured This Week</p>
-                   <p>View All</p>
+                   <p className='main-banner-details-header-title-view-more'>View All</p>
                    </div>
                    <DetailsBanner/>
                    
