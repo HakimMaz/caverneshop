@@ -13,12 +13,15 @@ function SlidingBook(props) {
         slidesToScroll: 1
     };
     return (
+        <div className='sliding-book-parent'>
+
         <Slider {...settings}  className='sliding-book' >
             <div className='sliding-book-item1' >1</div>
             <div className='sliding-book-item2' >2</div>
             <div className='sliding-book-item3' >3</div>
 
         </Slider>
+        </div>
     );
 }
 

@@ -1,6 +1,11 @@
+.sliding-book-parent{
+    margin-right: 100px;
+    margin-left:100px;
+
+}
 .sliding-book{
-    margin-right: 70px;
-    margin-left:70px;
+    margin-right: 100px;
+    margin-left:100px;
 }
 .sliding-book-item1{
     height:500px;

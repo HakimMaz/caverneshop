@@ -2,10 +2,14 @@ import React from 'react';
 import MainMenu from '../../component/MainMenu/MainMenu';
 import SlidingBook from '../../component/SlidingBook/SlidingBook';
 import Book from '../../component/Book/Book';
+import Banner from '../../component/Banner/Banner';
+import DetailsBanner from '../../component/DetailsBanner/DetailsBanner'
 import './main.css'
+
 function Main(props) {
     return (
         <div className='main'>
+           <div className='main-selling-book'> 
             <MainMenu />
             <SlidingBook />
             {/* <BestSellingBook/>  */}
@@ -20,7 +24,22 @@ function Main(props) {
                     <Book title='Learn Angular' author='O.Reilly' price='23.2$' rating={3} review={170} />
                 </div>
             </div>
-           
+           </div> 
+           <div className='main-banner'>
+               <div className='main-banner-section'> 
+
+               <div className='main-banner-details'> 
+                   <div className='main-banner-details-header'>
+                   <p className='main-banner-details-header-title'> Featured This Week</p>
+                   <p>View All</p>
+                   </div>
+                   <DetailsBanner/>
+                   
+               </div>
+              <Banner/>
+               </div>
+           </div>
+            
 
         </div>
     );

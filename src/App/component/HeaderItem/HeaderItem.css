@@ -12,3 +12,6 @@
  white-space: nowrap;
  color:#454E6D;
 }
+.header-item > p:hover{
+    color:#FF1616;
+}

@@ -1,0 +1,9 @@
+.details-banner{
+    background-color:red;
+    height:490px;
+    width:1000px;
+}
+.main-banner-details{
+    display:flex;
+    flex-direction: row;
+}
