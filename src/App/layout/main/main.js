@@ -12,10 +12,11 @@ function Main(props) {
            <div className='main-selling-book'> 
             <MainMenu />
             <SlidingBook />
-            {/* <BestSellingBook/>  */}
+        
             <div className='selling-book'>
                 <p className='selling-book-title'> Best Selling books Ever</p>
                 <div className='selling-book-slider'>
+                    {/* better using map  */}
                     <Book title='The behind' author='J.B slame' price='16.2$' rating={2} review={10} />
                     <Book title='Become a Mentalist' author='Didine Clash' price='83.9$' rating={5} review={216} />
                     <Book title='Lost in paradise' author='El-Motanaby' price='112$' rating={3} review={45} />
