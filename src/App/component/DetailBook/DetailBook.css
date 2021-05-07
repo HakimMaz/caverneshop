@@ -1,7 +1,19 @@
 .detail-book{
+    display: flex;
+    justify-content: space-between;
     height:390px;
     width:860px;
     background-color:#fff;
     margin-left:5px
-
+}
+.detail-book-image{
+    width:300px;
+    height:inherit;
+    margin-left:15px;
+}
+.detail-book-information-section{
+    background-color:darkgreen;
+    height:inherit;
+    width:520px;
+    padding-top:30px;
 }
