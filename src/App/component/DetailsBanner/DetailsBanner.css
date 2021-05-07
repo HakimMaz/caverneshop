@@ -1,8 +1,8 @@
 .details-banner{
     background-color:red;
-    height:430px;
-    width:950px;
-    padding:30px;
+    height:390px;
+    width:870px;
+    padding:50px;
 }
 .main-banner-details{
     display:flex;
